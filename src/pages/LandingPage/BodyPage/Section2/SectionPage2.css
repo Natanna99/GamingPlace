@@ -1,0 +1,40 @@
+.sectionPage2 {
+  position: absolute;
+  margin-top: 46%;
+  margin-left: 16%;
+  height: 37.5rem;
+}
+
+.cardsSectionPage2 {
+  margin-left: 50%;
+  position: absolute;
+  margin-top: 38%;
+}
+
+.imagemProfileCards {
+  width: 66vh;
+  height: 102vh;
+}
+
+.titleTextProfile {
+  color: var(--text);
+  font-size: 2.063rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.rewardSpacing {
+  justify-content: space-between;
+  display: flex;
+  width: 60%;
+}
+
+.bordFormat {
+  border-radius: 50%;
+  width: 12vh;
+}
+
+.positionProfile {
+  margin-left: 10%;
+}

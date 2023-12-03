@@ -1,0 +1,104 @@
+.teste {
+  display: flex;
+}
+
+.sectionRegister {
+  background: var(--lilac);
+  width: 60%;
+  height: 100vh;
+}
+
+.sectionRegister02 {
+  background: linear-gradient(180deg, #2f184b 54.47%, #4d3279 116.2%);
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  flex-direction: column;
+}
+
+.textIconeRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textRegister {
+  color: var(--dark-purple);
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#iconeRegiser {
+  color: var(--dark-purple);
+  width: 4.375rem;
+  height: 4.375rem;
+  margin-bottom: 0.75rem;
+}
+
+.textRegisterColor {
+  color: var(--dark-purple);
+}
+
+.imageRegister {
+  width: 78%;
+  height: 78%;
+}
+
+.centerImageRegister {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputRegister {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem;
+}
+
+.styleInputRegister {
+  border-radius: 0.5rem;
+  background: var(--lilac);
+  display: flex;
+  width: 22rem;
+  height: 3.125rem;
+  padding: 0rem 0.9375rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.875rem;
+  font-family: "Roboto";
+}
+
+#inputStyle {
+  background: none;
+  border: none;
+}
+
+.buttonRegister {
+  display: flex;
+  width: 22rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  color: var(--white);
+  background: var(--pink);
+  gap: 0.625rem;
+  border: var(--pink);
+  font-size: 1.125rem;
+  font-weight: 700;
+  transition: background 0.5s ease, color 0.5s ease;
+}

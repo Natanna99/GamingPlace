@@ -1,0 +1,92 @@
+footer {
+  background-color: var(--dark-purple);
+  color: var(--white);
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 99;
+}
+
+.footerGaming {
+  margin-left: 16.25rem;
+  font-weight: 700;
+  font-size: 1.75rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0rem;
+  height: 4.063rem;
+}
+
+.imagemFooter {
+  width: 32%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+#iconeFooter {
+  width: 2.125rem;
+  height: 2.125rem;
+  margin-right: 1.25rem;
+}
+
+.colFooter {
+  display: flex;
+  align-items: center;
+  margin-left: 16.25rem;
+  font-family: "Roboto";
+  font-size: 0.75rem;
+}
+
+.spacingTextCopyright {
+  margin-left: 1.25rem;
+}
+
+.sizeIconFooter {
+  font-size: 1.25rem;
+}
+
+#sizeiconFooter {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.spacingIconeFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 9.375rem;
+  margin-left: 74%;
+  position: absolute;
+}
+
+.aligningImage {
+  display: flex;
+  margin-top: 1.25rem;
+}
+
+.logoUlbra {
+  margin-left: 16.25rem;
+}
+
+.sizeLogoUlbra {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin-top: 2.375rem;
+}
+
+.sizUlbra {
+  width: 11.063rem;
+  height: 3.125rem;
+  margin-top: 2.375rem;
+  margin-left: 1.25rem;
+}
+
+.logoPalmas {
+  margin-top: 0.625rem;
+  width: 4.375rem;
+  margin-left: 11.063rem;
+}

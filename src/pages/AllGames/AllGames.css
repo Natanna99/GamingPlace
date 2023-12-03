@@ -1,0 +1,38 @@
+.divEfeitoPageGames {
+  position: relative;
+}
+
+.efeitoPageGames {
+  position: absolute;
+  width: 131vh;
+  height: 155vh;
+  right: 0;
+  z-index: 2;
+}
+
+.bodyPagesGames {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.875rem;
+  align-items: center;
+}
+
+.fontPagesGames {
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 0.625rem;
+  right: 16.5rem;
+  position: relative;
+  width: 43.75rem;
+}
+
+.titleCardsPages {
+  width: 68.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 2.063rem;
+}

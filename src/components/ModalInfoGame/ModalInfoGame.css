@@ -1,0 +1,146 @@
+.buttonCloseModalCard {
+  height: 3.125rem;
+  position: absolute;
+  right: 0;
+  top: 0.625rem;
+  z-index: 2;
+}
+
+#imageInfoGame {
+  height: 31.25rem;
+  width: 100%;
+  padding: 0;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+}
+
+#modalInfo.modal-dialog {
+  max-width: 60%;
+}
+
+#modalInfo.modal-body {
+  padding: 0 !important;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(
+    to top,
+    var(--dark-purple) 0%,
+    rgba(65, 41, 99, 0)
+  );
+}
+
+.bodyModalInfo {
+  padding: 0.625rem;
+  background-color: var(--dark-purple);
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
+
+.modalInfoDescripition {
+  color: var(--white);
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.titleInfoModal {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.divInfoModal {
+  margin-left: 4.375rem;
+  margin-right: 4.375rem;
+}
+
+.modalInfoDev {
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+}
+
+.devFrame {
+  border-radius: 3.125rem;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.infoDevProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameDev {
+  font-size: 0.938rem;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 0.625rem;
+}
+
+.locationDev {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-left: 0.625rem;
+}
+
+.buttonPlayNow {
+  display: flex;
+  color: var(--white);
+  border-radius: 0.5rem;
+  background: var(--pink);
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: var(--pink);
+  font-size: 1.125rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 15px 0px rgba(254, 27, 246, 0.5);
+  transition: background 0.5s ease, color 0.5s ease;
+  width: 15.25rem;
+  height: 3.5rem;
+  justify-content: center;
+}
+
+.collectReward {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem;
+}
+
+.buttonCollectReward {
+  display: flex;
+  width: 14.75rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--mustard);
+  color: var(--white);
+  border: none;
+}

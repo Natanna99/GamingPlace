@@ -1,0 +1,73 @@
+.shadow1 {
+  width: 58.5625rem;
+  height: 62.9375rem;
+  background-color: var(--pastel-purple);
+  border-radius: 50%; /* Garante que o elemento seja um círculo */
+  position: relative;
+  filter: blur(13.938rem);
+  z-index: -1;
+  bottom: 10.313rem;
+}
+
+.shadow1::before {
+  content: "";
+  position: absolute;
+  top: -0.625rem;
+  left: -0.625rem;
+  width: calc(100% + 1.25rem);
+  height: calc(100% + 1.25rem);
+  border-radius: 50%;
+  background-color: inherit;
+  filter: blur(0.62rem);
+  backdrop-filter: blur(0.62rem);
+}
+
+.divEfeito {
+  position: relative;
+  bottom: 56.313rem;
+}
+
+.efeitoBody {
+  position: absolute;
+  width: 158vh;
+  height: 238vh;
+  right: 0;
+  z-index: -1;
+}
+
+.shadow2 {
+  width: 18.813rem;
+  height: 30.563000000000002rem;
+  background-color: var(--pastel-purple);
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(13.938rem);
+  z-index: -1;
+  top: 90.625rem;
+  left: 80%;
+  border-radius: 3.125rem 0rem 0rem 3.125rem;
+}
+
+.shadow2::before {
+  content: "";
+  width: calc(100% + 1.25rem);
+  height: calc(100% + 1.25rem);
+  border-radius: 50%;
+  background-color: inherit;
+  filter: blur(0.62rem);
+  backdrop-filter: blur(0.62rem);
+}
+
+.page2 {
+  margin-bottom: 15%;
+}
+
+@media screen and (min-width: 1900px) {
+  .shadow2 {
+    top: 121.625rem;
+  }
+
+  .page2 {
+    margin-bottom: 29%;
+  }
+}

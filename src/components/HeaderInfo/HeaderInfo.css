@@ -1,0 +1,11 @@
+.navigationPageHomeInfo {
+  display: flex;
+  justify-content: space-between;
+  height: 5.063rem;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.063rem solid var(--light-purple);
+  background-color: var(--dark-purple);
+  position: relative;
+  z-index: 5;
+}

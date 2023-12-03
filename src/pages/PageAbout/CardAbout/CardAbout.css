@@ -1,0 +1,44 @@
+.boxCardAbout {
+  width: 87.9375rem;
+  height: 38.0625rem;
+  border-radius: 1.25rem;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 1.875rem;
+  align-items: center;
+  padding-right: 8.125rem;
+}
+
+.cardAbout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spacingPageAbout {
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.divTextCard {
+  color: var(--white);
+  width: 22.9375rem;
+  margin-top: 2.75rem;
+  padding-left: 3.125rem;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bordeImageCard {
+  border-radius: 0 1.25rem 1.25rem 0;
+  height: 100%;
+}

@@ -1,0 +1,84 @@
+.styleCardsGames {
+  width: 20rem;
+  border-radius: 0.6rem;
+  background-color: var(--text);
+}
+
+.spacingCardGames {
+  padding-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  gap: 6rem;
+  margin-left: 3.125rem;
+  z-index: 2;
+  padding-bottom: 9.375rem;
+}
+
+.cardTitleGames {
+  font-size: 0.77294rem;
+  font-style: normal;
+  line-height: normal;
+}
+
+.bordeImageCardGames {
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+}
+
+.cardTextGames {
+  color: var(--white);
+  font-family: "Roboto";
+  font-size: 0.67669rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buttonCardGames {
+  display: flex;
+  color: var(--white);
+  border-radius: 0.5rem;
+  background: var(--pink);
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: var(--pink);
+  font-size: 1.125rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 15px 0px rgba(254, 27, 246, 0.5);
+  transition: background 0.5s ease, color 0.5s ease;
+  width: 18rem;
+  height: 2.39581rem;
+}
+
+.buttonCardGames:hover {
+  background: var(--light-purple);
+  box-shadow: 5px 5px 15px 0px rgba(145, 114, 207, 0.5);
+}
+
+.infoDevCard {
+  color: var(--white);
+  font-size: 0.67669rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+}
+
+.infoOrganization {
+  display: flex;
+}
+
+.spacingIconeCard {
+  padding-right: 0.313rem;
+}
+
+.spacingButtonCard {
+  margin-bottom: 0.625rem;
+}
+
+.spacingNameDev {
+  margin-left: 0.313rem;
+}

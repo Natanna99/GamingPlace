@@ -1,0 +1,15 @@
+.bodyPagesAbout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem;
+}
+
+.fontPagesAbout {
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 0.625rem;
+  position: relative;
+  left: 9.375rem;
+}

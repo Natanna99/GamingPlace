@@ -1,0 +1,59 @@
+/* css global */
+
+:root {
+  --white: #fff;
+
+  --lilac: #f4effa;
+  --pastel-purple: #c8b1e4;
+  --light-purple: #9172cf;
+  --mediun-purple: #60458d;
+  --dark-purple: #2f184b;
+
+  --pink: #fe1bf6;
+
+  --mustard: #eca72c;
+
+  --green-water: #9dd9d2;
+
+  --text: #1d0c34;
+}
+
+body {
+  font-family: "Orbitron", "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: var(--text) !important;
+}
+
+.modal-body {
+  background-color: var(--text) !important;
+  box-shadow: 0 4px 8px rgba(47, 24, 75, 1);
+  border-radius: 1.25rem !important;
+  padding: 0;
+}
+
+.modal-content {
+  margin-top: 5.625rem;
+  border-radius: 1.563rem !important;
+}
+
+.buttonCloseModal {
+  height: 3.125rem;
+  padding-top: 1.25rem;
+}

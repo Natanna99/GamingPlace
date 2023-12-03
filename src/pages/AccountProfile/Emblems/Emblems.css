@@ -1,0 +1,35 @@
+.boxProfileEmblem {
+  background: var(--text);
+  z-index: 2;
+  display: flex;
+  width: 49rem;
+  height: 13.8125rem;
+  align-items: flex-start;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacingPageEmblems {
+  margin-top: 5%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12.5rem;
+}
+
+.titleEmblem {
+  margin-left: 3.125rem;
+  margin-top: 1.875rem;
+  font-weight: 700;
+}
+
+.divEmblems {
+  margin-left: 3.125rem;
+}
+
+.sizeBoxEmblem {
+  width: 7.25rem;
+  height: 7.25rem;
+  border-radius: 6.53125rem;
+}

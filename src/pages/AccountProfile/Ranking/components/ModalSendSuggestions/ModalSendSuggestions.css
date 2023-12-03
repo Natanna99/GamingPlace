@@ -1,0 +1,37 @@
+.divInputSuggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textSuggestions {
+  display: flex;
+  width: 23rem;
+  height: 17.4375rem;
+  padding: 0rem 0.9375rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border: none;
+  background-color: var(--dark-purple);
+  border-radius: 0.5rem;
+}
+
+.divSendSuggestions {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.sendSuggestions {
+  display: flex;
+  width: 23rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+}

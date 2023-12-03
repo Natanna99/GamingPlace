@@ -1,0 +1,54 @@
+.sectionPage3 {
+  width: 70%;
+}
+
+.sectionCenter3 {
+  justify-content: center;
+  display: flex;
+}
+
+.sectionButton {
+  justify-content: center;
+  display: flex;
+  margin-top: 1.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.buttonCircleGame {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 14.25rem;
+  height: 14.25rem;
+  padding: 2.87656rem 2.87656rem;
+  align-items: center;
+  border-radius: 8.21875rem;
+  border: 0.188rem solid var(--lilac);
+  background: var(--lilac);
+  box-shadow: 0.938rem 1.313rem 6.25rem 0 rgba(200, 177, 228, 0.7);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.buttonCircleGame:hover {
+  background: var(--dark-purple);
+  color: var(--white);
+  background: linear-gradient(to top left, var(--mediun-purple), var(--text));
+}
+
+.organizeButton {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.spacing {
+  margin-bottom: 6.25rem;
+  z-index: 1;
+}
+
+.iconeNewGames {
+  width: 2.5rem;
+  height: 2.5rem;
+}

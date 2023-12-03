@@ -1,0 +1,38 @@
+.imagemCards {
+  width: 78vh;
+  height: 85vh;
+}
+
+.section1Card {
+  position: absolute;
+}
+
+.cardsSection1 {
+  margin-left: 38%;
+}
+
+.section2Card {
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 3%;
+}
+
+.sizeBoxTextCards {
+  width: 31.4375rem;
+}
+
+.titleTextGamingPlace {
+  color: var(--text);
+  font-size: 2.063rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.textGamingPlace {
+  font-family: "Roboto";
+  color: var(--text);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,63 @@
+.initialPresentation {
+  background-color: var(--dark-purple);
+  height: 100vh;
+}
+
+.imagemPresentation {
+  position: absolute;
+  width: 100vh;
+  height: 90vh;
+  right: 0;
+  bottom: 0rem;
+}
+
+.imagemBoy {
+  position: absolute;
+  bottom: 0rem;
+  right: 0;
+  width: 80vh;
+  height: 70vh;
+}
+
+.centerPresentation {
+  position: absolute;
+  display: flex;
+  bottom: 40%;
+  margin-left: 16.25rem;
+  color: var(--white);
+  flex-direction: column;
+}
+
+.textWelcome {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+#textDescription {
+  margin-top: 0.625rem;
+  margin-bottom: 4.375rem;
+}
+
+#buttonStart {
+  background: var(--pink);
+  border: none;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-family: "Orbitron";
+  width: 18.125rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 15px 0px rgba(254, 27, 246, 0.5);
+  cursor: pointer;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+#buttonStart:hover {
+  background: var(--light-purple);
+  box-shadow: 5px 5px 15px 0px rgba(145, 114, 207, 0.5);
+}

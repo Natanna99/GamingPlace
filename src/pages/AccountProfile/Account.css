@@ -1,0 +1,39 @@
+.bodyPages {
+  height: 100%;
+  background: var(
+    --desgrade-card,
+    linear-gradient(151deg, #2f184b 39.85%, #412963 75.34%, #60458d 98.58%)
+  );
+}
+
+.shadowBody1 {
+  position: absolute;
+  margin-top: 10%;
+  right: 63%;
+  width: 37.125rem;
+  height: 36.25rem;
+  border-radius: 51.125rem;
+  background: var(--mediun-purple);
+  filter: blur(122.42820739746094px);
+  z-index: 1;
+}
+
+.shadowBody2 {
+  position: absolute;
+  background: var(--mediun-purple);
+  filter: blur(122.42820739746094px);
+  z-index: 1;
+  width: 20.1875rem;
+  height: 18rem;
+  border-radius: 20.1875rem;
+  right: 0;
+}
+
+.bodyPagesProfile {
+  position: relative;
+  display: flex;
+}
+
+.sizePageProfile {
+  width: 100%;
+}

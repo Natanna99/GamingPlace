@@ -1,0 +1,66 @@
+.logoGaming {
+  font-weight: 700;
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  margin-left: 2.5rem;
+}
+
+#iconLogo {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.25rem;
+  color: var(--white);
+}
+
+.navigationPageHome {
+  display: flex;
+  justify-content: space-between;
+  height: 5.063rem;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.organizingButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1.25rem;
+  width: 25rem;
+}
+
+#buttonPage {
+  color: var(--white);
+  text-decoration: none;
+  font-family: Orbitron;
+  font-size: 1.25rem;
+}
+
+#buttonPresentationStart {
+  background: var(--pink);
+  border: none;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+#buttonPresentation {
+  background: none;
+  border: none;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  transition: background 1s ease, color 1s ease;
+}
+
+#buttonPresentation:hover {
+  background: var(--pink);
+}
+
+.nameLogo {
+  margin-top: 0.938rem;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

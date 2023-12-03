@@ -1,0 +1,148 @@
+.boxProfileProgress {
+  background: var(--text);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 49rem;
+  height: 21.4375rem;
+  align-items: flex-start;
+  gap: 1.875rem;
+  border-radius: 1.25rem;
+}
+
+.infoProfile {
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacingPageProfile {
+  margin-top: 5%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxPhotograph {
+  margin-left: 3.125rem;
+  margin-right: 0.625rem;
+  margin-right: 2.5rem;
+}
+
+.sizeProfileBox {
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--pink);
+}
+
+.gamification {
+  color: var(--mustard);
+  display: flex;
+  gap: 2.438rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.info {
+  font-family: "Roboto";
+  font-size: 0.75rem;
+  color: var(--white);
+}
+
+.divGamer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itensGamerProfile {
+  margin-top: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.itensIconeLocation {
+  width: 0.938rem;
+  height: 0.938rem;
+  color: var(--white);
+}
+
+.itensIcone {
+  width: 0.938rem;
+  height: 0.938rem;
+  color: var(--mustard);
+}
+
+.sizeIconProfile {
+  font-size: 0.938rem;
+}
+
+.centerIconProfile {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1.25rem;
+}
+
+.crowProfileGamer {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  color: var(--mustard);
+}
+
+.pointProfileProgess {
+  display: flex;
+  gap: 0.625rem;
+  margin-left: 3.75rem;
+  margin-top: 1.25rem;
+}
+
+.divProgress {
+  margin-left: 3.75rem;
+  margin-top: 0.625rem;
+  width: 140%;
+}
+
+#progressProfile {
+  height: 0.5rem;
+  width: 100%;
+  background: var(--white);
+  border-radius: 0.625rem;
+}
+
+.progressBarProfile {
+  background-color: var(--mustard);
+  overflow: hidden;
+  height: 0.5rem;
+  border-radius: 0.625rem;
+}
+
+.pointProfileGamer {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.625rem;
+  width: 150%;
+}
+
+.divIconeEditProfile {
+  position: absolute;
+  background-color: var(--pink);
+  border-radius: 50%;
+  width: 1.875rem;
+  height: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8.875rem;
+  bottom: 7.813rem;
+  cursor: pointer;
+}
+
+.editProfile {
+  color: var(--white);
+  width: 1.25rem;
+  height: 1.25rem;
+}

@@ -1,0 +1,97 @@
+#modalAddFriens.modal-dialog {
+  max-width: 60%;
+}
+
+.centerModalAddfriends {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputSearchFriend {
+  display: flex;
+  width: 42rem;
+  height: 3.125rem;
+  padding: 0rem 0.9375rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  border: none;
+}
+
+.boxProfileSearchFriend {
+  display: flex;
+  width: 42rem;
+  height: 6.25rem;
+  padding: 0.625rem 1.6875rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  border-radius: 1.25rem;
+}
+
+.boxProfileSearch {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sizePhotoProfileSearch {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.infoSearchFriend {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25rem;
+  justify-content: center;
+}
+
+.photoInfoFriends {
+  display: flex;
+}
+
+.fontLocationFriends {
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.313rem;
+}
+
+.spacinfLocationIcone {
+  margin-right: 0.625rem;
+}
+
+.footerSearch {
+  margin-bottom: 3.125rem;
+}
+
+.buttonAddSearch {
+  display: flex;
+  width: 13.875rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+}
+
+.divButtonSearch {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.313rem;
+}

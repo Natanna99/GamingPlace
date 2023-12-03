@@ -1,0 +1,71 @@
+.styleHeader {
+  border-bottom: 0.063rem solid var(--light-purple);
+  background: var(--dark-purple);
+  display: flex;
+  padding: 0.9375rem;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  position: relative;
+}
+
+#iconeFooter {
+  color: var(--white);
+}
+
+.textHeader {
+  color: var(--white);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0.938rem;
+}
+
+.buttonsNews {
+  display: flex;
+  color: var(--white);
+  font-family: Orbitron;
+  border-radius: 0.5rem;
+  background: var(--pink);
+  justify-content: center;
+  width: 10.625rem;
+  height: 3.125rem;
+  align-items: center;
+  gap: 0.625rem;
+  border: var(--pink);
+  cursor: pointer;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.875rem;
+  margin-right: 12.5rem;
+}
+
+.crowProfile {
+  color: var(--mustard);
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.pointProfile {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.625rem;
+}
+
+.sizeProfile {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--pink);
+}
+
+.iconOut {
+  color: var(--white);
+  font-size: 1.25rem;
+  margin-right: 0.625rem;
+}

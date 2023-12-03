@@ -1,0 +1,76 @@
+.inputProfileEdit {
+  border-radius: 0.313rem;
+  background-color: var(--dark-purple);
+  display: flex;
+  width: 23rem;
+  height: 3.125rem;
+  align-items: center;
+  border: none;
+  color: var(--white);
+  font-family: "Roboto";
+  padding-left: 3.75rem;
+}
+
+.divInputProfileEdit {
+  margin: 1.25rem;
+}
+
+.iconeProfileEdit {
+  color: var(--white);
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 1.25rem;
+}
+
+.iconeEditProfile {
+  position: absolute;
+  background-color: var(--pink);
+  border-radius: 50%;
+  width: 1.875rem;
+  height: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8.875rem;
+  bottom: 25.75rem;
+}
+
+.centerItensModalProfile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buttonSave {
+  background: var(--pink);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-family: "Orbitron";
+  font-size: 1.125rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 15px 0px rgba(254, 27, 246, 0.5);
+  transition: background 0.5s ease, color 0.5s ease;
+  display: flex;
+  width: 23rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.divButtonSaveProfile {
+  margin-bottom: 1.875rem;
+}
+
+.iconeCloseModalProfile {
+  font-size: 1.563rem;
+  color: var(--white);
+  display: flex;
+  position: absolute;
+  right: 1.25rem;
+}
+
+.bodyModalProfileEdit {
+  margin-top: 1.875rem;
+}
