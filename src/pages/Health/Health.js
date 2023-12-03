@@ -82,7 +82,7 @@ export function Health() {
       ],
     },
     {
-      titulo: "Nome do jogo",
+      titulo: "Nome do jogo ",
       descricao:
         "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
       image: "JogoCardEducation4.png",
