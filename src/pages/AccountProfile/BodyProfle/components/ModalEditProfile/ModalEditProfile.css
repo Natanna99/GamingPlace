@@ -22,6 +22,10 @@
   margin-left: 1.25rem;
 }
 
+#iconeProfileEditColorWhite {
+  color: var(--white) !important;
+}
+
 .iconeEditProfile {
   position: absolute;
   background-color: var(--pink);

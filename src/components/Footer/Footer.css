@@ -56,11 +56,15 @@ footer {
 
 .spacingIconeFooter {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   width: 9.375rem;
   margin-left: 74%;
   position: absolute;
+  align-items: center;
+}
+
+.alignComponents{
+  margin-right: 30px;
 }
 
 .aligningImage {
@@ -89,4 +93,10 @@ footer {
   margin-top: 0.625rem;
   width: 4.375rem;
   margin-left: 11.063rem;
+}
+
+.logoJogosDigitais{
+  width: 11.063rem;
+  margin-top: 0.938rem;
+  height: 3.125rem;
 }

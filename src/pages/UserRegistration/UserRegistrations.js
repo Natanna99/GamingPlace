@@ -30,11 +30,11 @@ export function UserRegistration({ mostrarFooter }) {
           </div>
           <div className="styleInputRegister">
             <KeyRound />
-            <input type="text" placeholder="Senha" id="inputStyle" />
+            <input type="password" placeholder="Senha" id="inputStyle" />
           </div>
           <div className="styleInputRegister">
             <KeyRound />
-            <input type="text" placeholder="Confirma senha" id="inputStyle" />
+            <input type="password" placeholder="Confirma senha" id="inputStyle" />
           </div>
           <div>
             <a href="/">

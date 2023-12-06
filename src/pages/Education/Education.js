@@ -7,129 +7,129 @@ import { Footer } from "../../components/Footer/Footer";
 export function Education() {
   const infoCardCollapse = [
     {
-      titulo: "Nome do jogo",
+      titulo: "Letrando",
       descricao:
-        "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
+        "Letrando é um jogo educativo especialmente projetado para proporcionar uma experiência de aprendizado envolvente e inclusiva para pessoas no espectro autista. Com um foco central na habilidade de soletrar, o jogo oferece uma abordagem divertida e interativa para fortalecer as habilidades linguísticas e promover a autonomia.",
       image: "education.png",
     },
     {
-      titulo: "Jog teste",
+      titulo: "Game Math",
       descricao:
-        "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-      image: "GamesColapse.png",
+        "Game Math é um educativo jogo projetado para tornar o aprendizado de matemática uma experiência empolgante para crianças. Com uma mistura inteligente de jogabilidade envolvente e conceitos matemáticos fundamentais, Game Math é a ferramenta ideal para transformar o estudo em uma aventura educativa, proporcionando às crianças dicas valiosas de matemática enquanto se divertem.",
+      image: "JogoCardTodos2.png",
     },
     {
-      titulo: "Jog teste",
+      titulo: "EduQuest",
       descricao:
-        "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-      image: "GamesColapse1.png",
+        "EduQuest é um jogo educativo interativo projetado para proporcionar uma experiência de aprendizado imersiva. Com uma abordagem baseada em missões, os jogadores exploram ambientes virtuais, enfrentando desafios educacionais personalizados em áreas como matemática, ciências e línguas.",
+      image: "caderno.png",
     },
   ];
 
   const infoCard = [
     {
-      titulo: "Nome do jogo",
+      titulo: "LetraMente Explora",
       descricao:
-        "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
+        "LetraMente Explora é um jogo educativo focado nas diferentes formas das letras. Com ambientes interativos, desafios e abordagens pedagógicas inovadoras, o jogo proporciona uma experiência envolvente para o aprendizado da escrita, promovendo o desenvolvimento preciso das habilidades linguísticas.",
       image: "JogoCardEducation1.png",
       dev: [
         {
-          nome: "NomeDev01",
+          nome: "Pedro Gomes",
           imagem: "imagemDev01.png",
           location: "ULBRA - Palmas, TO",
         },
         {
-          nome: "NomeDev02",
+          nome: "Laura Sousa",
           imagem: "imagemDev02.png",
           location: "ULBRA - Palmas, TO",
         },
       ],
     },
     {
-      titulo: "Nome do jogo",
+      titulo: "GeoCraft 3D",
       descricao:
-        "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
-      image: "JogoCardEducation2.png",
+        "GeoCraft 3D é um jogo educativo tridimensional que permite aos jogadores criar e explorar formas geométricas. Com ambientes interativos e desafios, o jogo oferece uma abordagem prática e imersiva para o aprendizado das propriedades e manipulações das formas, incentivando o entendimento conceitual e a criatividade.",
+      image: "formas.png",
       dev: [
         {
-          nome: "NomeDev01",
+          nome: "Carlos Daniel",
           imagem: "imagemDev01.png",
           location: "ULBRA - Palmas, TO",
         },
         {
-          nome: "NomeDev02",
+          nome: "Júlia Costa",
           imagem: "imagemDev012.png",
           location: "ULBRA - Palmas, TO",
         },
       ],
     },
     {
-      titulo: "Nome do jogo",
+      titulo: "Learniverse",
       descricao:
-        "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
-      image: "JogoCardEducation3.png",
+        "Learniverse é um jogo educativo que integra tecnologia e aprendizado. Com base em uma abordagem interativa e personalizada, o Learniverse oferece uma variedade de desafios adaptativos, promovendo o desenvolvimento cognitivo em diversas disciplinas. ",
+      image: "iot.png",
       dev: [
         {
-          nome: "NomeDev01",
+          nome: "Bruno Henrique",
           imagem: "imagemDev01.png",
           location: "ULBRA - Palmas, TO",
         },
         {
-          nome: "NomeDev02",
+          nome: "Marcos André",
           imagem: "imagemDev012.png",
           location: "ULBRA - Palmas, TO",
         },
       ],
     },
     {
-      titulo: "Nome do jogo",
+      titulo: "SmartLearn Adventures",
       descricao:
-        "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
-      image: "JogoCardEducation4.png",
+        "SmartLearn Adventures é um jogo educativo centrado na exploração de conhecimento. Utilizando tecnologia de ponta, oferece uma experiência adaptativa que abrange várias disciplinas. Através de desafios progressivos e análise de desempenho, o jogo se destaca como uma plataforma interativa, promovendo a assimilação eficaz de conceitos educacionais.",
+      image: "boy-studying.png",
       dev: [
         {
-          nome: "NomeDev01",
+          nome: "Bruna Thais",
           imagem: "imagemDev01.png",
           location: "ULBRA - Palmas, TO",
         },
         {
-          nome: "NomeDev02",
+          nome: "Laura Maria",
           imagem: "imagemDev012.png",
           location: "ULBRA - Palmas, TO",
         },
       ],
     },
     {
-      titulo: "Nome do jogo",
+      titulo: "NetMastermind",
       descricao:
-        "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
-      image: "JogoCardEducation5.png",
+        "NetMastermind é um jogo educativo projetado para ensinar os fundamentos das redes de computadores de maneira envolvente. Com simulações interativas, desafios práticos e cenários do mundo real, o jogo oferece uma experiência imersiva que auxilia na compreensão de protocolos, configurações e práticas de segurança. NetMastermind é a ferramenta ideal para transformar o aprendizado de redes em uma jornada dinâmica e educativa.",
+      image: "redes-computadores.png",
       dev: [
         {
-          nome: "NomeDev01",
+          nome: "Maria Antonia",
           imagem: "imagemDev01.png",
           location: "ULBRA - Palmas, TO",
         },
         {
-          nome: "NomeDev02",
+          nome: "Lucas Matheus",
           imagem: "imagemDev012.png",
           location: "ULBRA - Palmas, TO",
         },
       ],
     },
     {
-      titulo: "Nome do jogo",
+      titulo: "PrediLogic",
       descricao:
-        "Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo Descrição do jogo.",
-      image: "JogoCardEducation6.png",
+        "PrediLogic é um jogo educativo que se concentra no ensino da lógica de predicados de forma acessível. Com desafios estruturados, níveis progressivos e exemplos práticos, os jogadores são guiados através dos princípios fundamentais dessa disciplina. PrediLogic oferece uma experiência simplificada, tornando o aprendizado da lógica de predicados acessível e estimulante.",
+      image: "mulher-sorrindo.png",
       dev: [
         {
-          nome: "NomeDev01",
+          nome: "Douglas Santos",
           imagem: "imagemDev01.png",
           location: "ULBRA - Palmas, TO",
         },
         {
-          nome: "NomeDev02",
+          nome: "João Vitor",
           imagem: "imagemDev012.png",
           location: "ULBRA - Palmas, TO",
         },

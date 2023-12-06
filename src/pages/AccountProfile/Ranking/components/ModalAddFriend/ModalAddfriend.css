@@ -95,3 +95,17 @@
   line-height: normal;
   margin-top: 0.313rem;
 }
+
+.buttonAddSearchTrue {
+  display: flex;
+  width: 13.875rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background-color: var(--green-water);
+  color: var(--white);
+  border: none;
+} 

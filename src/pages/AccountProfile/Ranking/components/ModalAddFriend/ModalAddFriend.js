@@ -66,7 +66,7 @@ export function ModalAddFriend({ modalAdd, setModalAdd }) {
   ];
 
   const [resultSearch, setResultSearch] = useState(null);
-
+  const [colorButton, setColorButton] = useState(null);
   const searchFriend = (e) => {
     setResultSearch(
       informacoes.filter((item) =>
@@ -122,9 +122,18 @@ export function ModalAddFriend({ modalAdd, setModalAdd }) {
                     </div>
                   </div>
                   <div className="divButtonSearch">
-                    <button className="buttonAddSearch">
-                      Adicionar amizade
-                    </button>
+                    {colorButton ? (
+                      <button className="buttonAddSearchTrue">
+                        Pedido de amizade enviado
+                      </button>
+                    ) : (
+                      <button
+                        className="buttonAddSearch"
+                        onClick={() => setColorButton(true)}
+                      >
+                        Adicionar amizade
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>

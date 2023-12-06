@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import ImagemFooter from "./../../assets/svg/LooperGroup.svg";
 import logoCiencia from "./../../assets/svg/logoCiencia.svg";
+import logoJogos from "./../../assets/svg/jogos-digitais.svg";
 import cienciaComputacao from "./../../assets/svg/cienciaComputacao.svg";
 import logoSistema from "./../../assets/svg/logoSistema.svg";
 import sistemaInfo from "./../../assets/svg/sistemaInformacao.svg";
@@ -40,6 +41,7 @@ export function Footer() {
         </div>
       </div>
       <div className="spacingIconeFooter">
+        <div className="alignComponents">
         <div className="aligningImage">
           <img src={logoCiencia} alt="" />
           <img src={cienciaComputacao} alt="" />
@@ -48,9 +50,15 @@ export function Footer() {
           <img src={logoSistema} alt="" />
           <img src={sistemaInfo} alt="" />
         </div>
+        </div>
+        <div className="alignComponents">
         <div className="aligningImage">
           <img src={logoEngenharia} alt="" />
           <img src={engenhariaSoft} alt="" />
+        </div>
+        <div className="logoJogosDigitais">
+          <img src={logoJogos} alt="" />
+        </div>
         </div>
       </div>
 

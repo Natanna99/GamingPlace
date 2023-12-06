@@ -30,7 +30,7 @@ export function Login() {
           </div>
           <div className="styleInputRegister">
             <KeyRound />
-            <input type="text" placeholder="Senha" id="inputStyle" />
+            <input type="password" placeholder="Senha" id="inputStyle" />
           </div>
           <div>
             <a href="/">
